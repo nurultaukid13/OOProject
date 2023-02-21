@@ -29,7 +29,7 @@ public class Ellipse {
         System.out.println("=================");
         System.out.println("Elips");
         System.out.println("=================");
-        System.out.printf("luas= %.3f", luas());
-        System.out.printf("keliling= %.3f", keliling());
+        System.out.printf("luas= %.3f \n", luas());
+        System.out.printf("keliling= %.3f \n\n", keliling());
     }
 }

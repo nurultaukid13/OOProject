@@ -26,7 +26,7 @@ public class Circle {
         System.out.println("=================");
         System.out.println("Lingkaran");
         System.out.println("=================");
-        System.out.printf("Luas= %.3f",luas());
-        System.out.printf("Keliling= %.3f",keliling());
+        System.out.printf("Luas= %.3f \n",luas());
+        System.out.printf("Keliling= %.3f \n\n",keliling());
     }
 }

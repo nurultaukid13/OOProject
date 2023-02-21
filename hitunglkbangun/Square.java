@@ -27,6 +27,6 @@ public class Square{
         System.out.println("Persegi");
         System.out.println("=================");
         System.out.println("luas= "+luas());
-        System.out.println("keliling= "+keliling());
+        System.out.println("keliling= "+keliling()+"\n");
     }
 }
