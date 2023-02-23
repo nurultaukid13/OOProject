@@ -1,15 +1,8 @@
 import java.util.Scanner;
 
 public class Circle {
-    private double radius;
-
-    public double input() {
-        Scanner masukan = new Scanner(System.in);
-        System.out.print("Masukkan jari-jari lingkaran: ");
-        this.radius = masukan.nextDouble();
-        return this.radius;
-    }
-
+    public double radius;
+    
     public double luas() {
         double luas;
         luas = Math.PI * Math.pow(this.radius, 2);

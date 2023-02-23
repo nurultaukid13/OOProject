@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Square{
-    private int sisi;
+    public int sisi;
 
     public int input(){
         Scanner masukan = new Scanner(System.in);

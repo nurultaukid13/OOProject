@@ -1,16 +1,8 @@
 import java.util.Scanner;
 
 public class Ellipse {
-    private double jarakSumbuHorizontal;
-    private double jarakSumbuVertikal;
-
-    public void input() {
-        Scanner masukan = new Scanner(System.in);
-        System.out.print("Masukkan jarak sumbu horizontal: ");
-        this.jarakSumbuHorizontal = masukan.nextDouble();
-        System.out.print("Masukkan jarak sumbu vertikal: ");
-        this.jarakSumbuVertikal = masukan.nextDouble();
-    }
+    public double jarakSumbuHorizontal;
+    public double jarakSumbuVertikal;
 
     public double luas() {
         double luas;

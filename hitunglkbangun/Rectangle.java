@@ -1,17 +1,7 @@
 import java.util.Scanner;
 
 public class Rectangle {
-    private int[] input;
-
-    public int[] input(){
-        this.input = new int[2];
-        Scanner masukan = new Scanner(System.in);
-        System.out.print("Masukkan panjang: ");
-        this.input[0] = masukan.nextInt();
-        System.out.print("Masukkan lebar: ");
-        this.input[1] = masukan.nextInt();
-        return this.input;
-    }
+    public int[] input;
 
     public int luas() {
         int luas;

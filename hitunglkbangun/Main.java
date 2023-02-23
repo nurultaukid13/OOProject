@@ -18,28 +18,38 @@ public class Main {
             switch (pilihan) {
                 case 1:
                     Square persegi = new Square();
-                    persegi.input();
+                    System.out.print("Masukkan panjang sisi: ");
+                    persegi.sisi = scanner.nextInt();
                     persegi.luas();
                     persegi.keliling();
                     persegi.printInfo();
                     break;
                 case 2:
                     Rectangle ppanjang = new Rectangle();
-                    ppanjang.input();
+                    ppanjang.input = new int[2];
+                    System.out.print("Masukkan panjang: ");
+                    ppanjang.input[0] = scanner.nextInt();
+                    System.out.print("Masukkan lebar: ");
+                    ppanjang.input[1] = scanner.nextInt();
                     ppanjang.luas();
                     ppanjang.keliling();
                     ppanjang.printInfo();
                     break;
                 case 3:
                     Circle lingkaran = new Circle();
-                    lingkaran.input();
+
+                    System.out.print("Masukkan jari-jari lingkaran: ");
+                    lingkaran.radius = scanner.nextDouble();
                     lingkaran.luas();
                     lingkaran.keliling();
                     lingkaran.printInfo();
                     break;
                 case 4:
                     Ellipse elips = new Ellipse();
-                    elips.input();
+                    System.out.print("Masukkan jarak sumbu horizontal: ");
+                    elips.jarakSumbuHorizontal = scanner.nextDouble();
+                    System.out.print("Masukkan jarak sumbu vertikal: ");
+                    elips.jarakSumbuVertikal = scanner.nextDouble();
                     elips.luas();
                     elips.keliling();
                     elips.printInfo();
