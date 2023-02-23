@@ -1,14 +1,5 @@
-import java.util.Scanner;
-
 public class Square{
     public int sisi;
-
-    public int input(){
-        Scanner masukan = new Scanner(System.in);
-        System.out.print("Masukkan panjang sisi: ");
-        this.sisi = masukan.nextInt();
-        return this.sisi;
-    }
 
     public int luas(){
         int luas;
