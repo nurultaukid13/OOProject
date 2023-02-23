@@ -37,7 +37,6 @@ public class Main {
                     break;
                 case 3:
                     Circle lingkaran = new Circle();
-
                     System.out.print("Masukkan jari-jari lingkaran: ");
                     lingkaran.radius = scanner.nextDouble();
                     lingkaran.luas();
