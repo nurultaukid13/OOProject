@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Ellipse {
     public double jarakSumbuHorizontal;
     public double jarakSumbuVertikal;
@@ -12,8 +10,7 @@ public class Ellipse {
 
     public double keliling() {
         double keliling;
-        keliling = Math.PI * Math
-                .sqrt(2 * (Math.pow(this.jarakSumbuHorizontal / 2, 2) + Math.pow(this.jarakSumbuVertikal / 2, 2)));
+        keliling = Math.PI * Math.sqrt(2 * (Math.pow(this.jarakSumbuHorizontal / 2, 2) + Math.pow(this.jarakSumbuVertikal / 2, 2)));
         return keliling;
     }
 

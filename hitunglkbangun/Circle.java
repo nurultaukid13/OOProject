@@ -1,8 +1,6 @@
-import java.util.Scanner;
-
 public class Circle {
     public double radius;
-    
+
     public double luas() {
         double luas;
         luas = Math.PI * Math.pow(this.radius, 2);
