@@ -4,7 +4,7 @@ public class HitungGajiPegawai {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Input data pegawai
+        // Input data pegawai halo
         System.out.print("Nama: ");
         String nama = input.nextLine();
         System.out.print("Alamat: ");
