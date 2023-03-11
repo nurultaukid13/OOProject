@@ -19,28 +19,28 @@ public class GajiPegawaiOOP {
 
     public int hitungGaji() {
         int gaji = 0;
-        if(pengalaman.equalsIgnoreCase("Pemula")){
-            gaji+=500000;
-        }else if(pengalaman.equalsIgnoreCase("Menengah")){
-            gaji+=1000000;
-        }else if(pengalaman.equalsIgnoreCase("expert")){
-            gaji+=2000000; 
+        if (pengalaman.equalsIgnoreCase("Pemula")) {
+            gaji += 500000;
+        } else if (pengalaman.equalsIgnoreCase("Menengah")) {
+            gaji += 1000000;
+        } else if (pengalaman.equalsIgnoreCase("expert")) {
+            gaji += 2000000;
         }
 
-        if(skill.equalsIgnoreCase("web")){
-            gaji+=1000000;
-        }else if(skill.equalsIgnoreCase("mobile")){
-            gaji+=2000000;
-        }else if(skill.equalsIgnoreCase("desktop")){
-            gaji+=2500000; 
+        if (skill.equalsIgnoreCase("web")) {
+            gaji += 1000000;
+        } else if (skill.equalsIgnoreCase("mobile")) {
+            gaji += 2000000;
+        } else if (skill.equalsIgnoreCase("desktop")) {
+            gaji += 2500000;
         }
 
-        if(departemen.equalsIgnoreCase("IT")){
-            gaji+=8000000;
-        }else if(departemen.equalsIgnoreCase("HRD")){
-            gaji+=5000000;
-        }else if(departemen.equalsIgnoreCase("Finance")){
-            gaji+=4000000; 
+        if (departemen.equalsIgnoreCase("IT")) {
+            gaji += 8000000;
+        } else if (departemen.equalsIgnoreCase("HRD")) {
+            gaji += 5000000;
+        } else if (departemen.equalsIgnoreCase("Finance")) {
+            gaji += 4000000;
         }
         return gaji;
     }
