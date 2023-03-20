@@ -1,4 +1,4 @@
-public class Bola{
+public class Bola implements Bangun{
     public double radius_bola, volume;
 
     public Bola(){
@@ -14,8 +14,9 @@ public class Bola{
         this.radius_bola = radius_bola;
     }
 
-    public void ComputeAndSetVolume(){
+    public double ComputeAndSetVolume(){
         this.volume = (4.0/3.0) * Math.PI * Math.pow(radius_bola, 3);
+        return this.volume;
     }
 
     public void GetVolume(){

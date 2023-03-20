@@ -1,4 +1,4 @@
-public class Balok {
+public class Balok implements Bangun{
     public double panjang, lebar, tinggi, volume;
 
     public Balok(){
@@ -27,8 +27,9 @@ public class Balok {
         this.tinggi = tinggi;
     }
 
-    public void ComputeAndSetVolume(){
+    public double ComputeAndSetVolume(){
         this.volume = this.panjang * this.lebar * this.tinggi;
+        return this.volume;
     }
 
     public void GetVolume(){

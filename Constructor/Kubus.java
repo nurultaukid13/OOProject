@@ -1,4 +1,4 @@
-public class Kubus{
+public class Kubus implements Bangun{
     public double sisi, volume;
 
     public Kubus(){
@@ -15,8 +15,9 @@ public class Kubus{
         this.sisi = sisiBaru;
     }
 
-    public void ComputeAndSetVolume(){
+    public double ComputeAndSetVolume(){
         this.volume = Math.pow(this.sisi, 3);
+        return this.volume;
     }
 
     public void GetVolume(){

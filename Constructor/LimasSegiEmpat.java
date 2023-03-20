@@ -1,4 +1,4 @@
-public class LimasSegiEmpat {
+public class LimasSegiEmpat implements Bangun{
     public double sisi_alas, tinggi_limas, volume;
 
     public LimasSegiEmpat(){
@@ -21,8 +21,9 @@ public class LimasSegiEmpat {
         this.tinggi_limas = tinggi_limas;
     }
 
-    public void ComputeAndSetVolume(){
+    public double ComputeAndSetVolume(){
         this.volume = 1.0/3 * this.sisi_alas * this.sisi_alas * this.tinggi_limas;
+        return this.volume;
     }
 
     public void GetVolume(){

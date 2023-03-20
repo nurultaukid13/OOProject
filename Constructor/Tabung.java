@@ -1,4 +1,4 @@
-public class Tabung {
+public class Tabung implements Bangun{
     public double radius, tinggitab, volume;
 
     public Tabung(){
@@ -21,8 +21,9 @@ public class Tabung {
         this.tinggitab = tinggi;
     }
 
-    public void ComputeAndSetVolume(){
+    public double ComputeAndSetVolume(){
         this.volume = Math.PI * this.radius * this.radius * this.tinggitab;
+        return this.volume;
     }
 
     public void GetVolume(){
