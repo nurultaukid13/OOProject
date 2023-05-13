@@ -8,7 +8,7 @@ public class Sekolah extends Gedung{
         this.pendidikan = tingkat_pendidikan;
     }
 
-    @Override
+    @Override //overriding
     public void printInfo(boolean negeri){
         if(negeri){
             super.printInfo(true);
